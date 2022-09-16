@@ -139,11 +139,7 @@ li a{
 .subinfo{
 	padding: 105px 0;
 }
-.preinfo{
-	padding-right: 193px;
-}
 .subinfo__top{
-	display: flex;
 	padding-bottom: 105px;
 }
 .preinfo__pretitle-blue {
