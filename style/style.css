@@ -298,9 +298,6 @@ li a{
 	.header__ul{
 		margin-right: 50px;
 	}
-	.left__text{
-		margin-right: 30px;
-	}
 	.article__item-gallery{
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(4, 1fr);
@@ -327,6 +324,9 @@ li a{
 	}
 	.logo__text{
 		display: none;
+	}
+	.header{
+		padding: 31px 0 25px;
 	}
 	.header__nav{
 		display: none;
@@ -379,6 +379,16 @@ li a{
 	.subinfo__top{
 		flex-direction: column;
 		text-align: center;
+	}
+	.preinfo__title{
+		max-width: 318px;
+		font-size: 48px;
+		margin: 0 auto;
+	}
+	.preinfo__text{
+		max-width: 419px;
+		font-size: 20px;
+	line-height: 26px;
 	}
 	.row__columns{
 		max-width: 322px;
