@@ -388,7 +388,10 @@ li a{
 	.preinfo__text{
 		max-width: 419px;
 		font-size: 20px;
-	line-height: 26px;
+		line-height: 26px;
+	}
+	.preinfo__button{
+		margin-bottom: 37px;
 	}
 	.row__columns{
 		max-width: 322px;
