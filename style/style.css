@@ -561,6 +561,10 @@ li a{
 		align-items: center;
 		justify-content: center;
 	}
+	.conteiner-image__img{
+		width: 290px;
+    	height: 348px;
+	}
 	.article__item-gallery{
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(7, 1fr);
