@@ -555,7 +555,8 @@ li a{
 	.companys__img--img{
 		display: grid;
 		background: #fff;
-		box-shadow: inset -1px 0 0 rgb(200, 200, 200,);
+		box-shadow: inset -1px 0px 0px rgba(200, 200, 200, 0.5);
+		max-width: 107px;
 		height: 94px;
 		align-items: center;
 		justify-content: center;
