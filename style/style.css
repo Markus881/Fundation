@@ -524,7 +524,6 @@ li a{
 	}
 	.flex__inbox-column{
 		flex-direction: column;
-
 	}
 	.info{
 		text-align: start;
@@ -546,6 +545,21 @@ li a{
 	}
 	.inbox__response{
 		padding: 30px 20px;
+	}
+	.companys__img{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 1px 0;
+	}
+	.companys__img--img{
+		display: grid;
+		background: #fff;
+		box-shadow: inset -1px 0 0 rgb(200, 200, 200,);
+		height: 94px;
+		align-items: center;
+		осс
+		
 	}
 	.article__item-gallery{
 		grid-template-columns: 1fr;
