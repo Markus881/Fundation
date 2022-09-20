@@ -558,8 +558,7 @@ li a{
 		box-shadow: inset -1px 0 0 rgb(200, 200, 200,);
 		height: 94px;
 		align-items: center;
-		осс
-		
+		justify-content: center;
 	}
 	.article__item-gallery{
 		grid-template-columns: 1fr;
