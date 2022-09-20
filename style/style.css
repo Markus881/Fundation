@@ -248,7 +248,7 @@ li a{
 	text-align: center;
 }
 .article__item{
-	width: 588px;
+	max-width: 588px;
 	margin: 0 auto;
 }
 .article__item-title{
@@ -519,6 +519,15 @@ li a{
 	.inbox{
 		padding: 50px 0 50px;
 	}
+	.left__button{
+		margin-bottom: 12px;
+	}
+	.item__gallery{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+		gap: 15px;
+
+	}
 	.conteiner-image{
 		margin-bottom: 32px;
 	}
@@ -563,7 +572,11 @@ li a{
 	}
 	.conteiner-image__img{
 		width: 290px;
-    	height: 348px;
+		height: 348px;
+	}
+	.midconteiner-image__img{
+		width: 290px;
+		height: 291px;
 	}
 	.article__item-gallery{
 		grid-template-columns: 1fr;
