@@ -295,6 +295,57 @@ li a{
 	grid-row: span 2;
 	grid-column: span 1;
 }
+.window{
+	background-color: #F4F5F7;
+	padding: 72px 0 72px;
+}
+.window__image{
+	margin-left: 80px;
+}
+.window__title{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 40px;
+	padding-bottom: 12px;
+}
+.window__text{
+	max-width: 555px;
+	font-size: 22px;
+	line-height: 32px;
+	padding-bottom: 26px;
+}
+.window__input{
+	padding-bottom: 10px;
+}
+.input{
+	height: 48px;
+	width: 385px;
+	left: 617px;
+	top: 256px;
+	background: #FFFFFF;
+	border: 1px solid rgba(43, 41, 45, 0.2);
+	border-radius: 2px;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 13px;
+	text-indent: 15px;
+}
+.input::placeholder{
+	color: #2B292D;
+	opacity: 1;
+}
+.lable{
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(43, 41, 45, 0.6);
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px){
 	.conteiner{
 		max-width: 1040px;
