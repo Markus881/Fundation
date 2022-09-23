@@ -80,7 +80,7 @@ li a {
 .main__conteiner > div:first-of-type{
 	z-index: 1;
 }
-.main__conteiner > div:last-of-type{
+.main__conteiner > .main__image:last-of-type{
 	z-index: 0;
 	position: absolute;
 	right: 25px;
