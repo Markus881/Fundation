@@ -67,11 +67,10 @@ li a {
   font-weight: 700;
   color: #ffffff;
 }
-
-
-
-
-
+.button:hover {
+	transform: scale(1.1);
+	transition: 500ms;
+ }
 .main {
 	background: rgba(243, 198, 189, 1);
 	position: relative;
@@ -118,17 +117,6 @@ li a {
 }
 .main__img {
 }
-
-
-
-
-
-
-
-
-
-
-
 .questions {
   background-color: #f4f5f7;
   padding: 77px 0 77px;
@@ -323,10 +311,11 @@ li a {
   padding: 22px 0 33px;
 }
 .item__pic:hover {
-  background: #3141c5;
-  box-shadow: 0px 13px 18px -8px rgba(0, 0, 0, 0.15),
-	 0px 11px 55px 10px rgba(0, 0, 0, 0.07);
-  transition: 2s;
+	transform: scale(1.1);
+	background: #3141c5;
+	box-shadow: 0px 13px 18px -8px rgba(0, 0, 0, 0.15),
+	0px 11px 55px 10px rgba(0, 0, 0, 0.07);
+	transition: 2s;
 }
 .item__title {
   font-weight: 700;
@@ -362,6 +351,10 @@ li a {
 }
 .pic {
   max-width: 100%;
+}
+.pic:hover {
+	transform: scale(1.1);
+	transition: 500ms;
 }
 .article__item-gallery--img:nth-child(1) {
   grid-row: span 1;
