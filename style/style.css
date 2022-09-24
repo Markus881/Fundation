@@ -431,7 +431,6 @@ li a {
 .checkbox label::before{
 	height: 16px;
 	width: 16px;
-	
 	border: 1px solid;
 	left: 0px;
 	top: 3px;
@@ -586,6 +585,35 @@ li a {
   .header__nav {
 	 display: none;
   }
+  .main{
+	padding-bottom: 0;
+  }
+.main__conteiner{
+	flex-direction: column;
+}
+.main__conteiner > .main__image:last-of-type {
+	position: relative;
+	right: 0;
+}
+  .main__title{
+	max-width: 525px;
+	font-size: 60px;
+	line-height: 72px;
+	letter-spacing: -0.5px;
+  }
+  .main__text{
+	max-width: 355px;
+	font-size: 20px;
+	line-height: 26px;
+  }
+  .main__img {
+	height: 349px;
+  }
+  .button{	
+	font-size: 16px;
+	line-height: 13px;
+  }
+
   .questions {
 	 padding: 41px 0;
   }
@@ -661,6 +689,36 @@ li a {
 	 grid-template-rows: repeat(2, 1fr);
 	 gap: 45px 45px;
   }
+  .window__conteiner{
+	flex-direction: column-reverse;
+  }
+  .window__title{
+	max-width: 325px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 48px;
+	line-height: 40px;
+	letter-spacing: -0.357143px;
+  }
+  .window__text{
+	max-width: 590px;
+	font-size: 22px;
+	line-height: 32px;
+	text-align: center;
+  }
+  .input::placeholder {
+	text-align: center;
+	font-size: 18px;
+	line-height: 13px;
+ }
+ .checkbox label{
+	margin-bottom: 13px;
+	max-width: 431px;
+ }
+ .window__btn, .input{
+	width: 290px;
+ }
+
   .article__title {
 	 font-size: 48px;
   }
