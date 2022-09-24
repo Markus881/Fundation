@@ -411,11 +411,111 @@ li a {
   color: #2b292d;
   opacity: 1;
 }
-.lable {
-  font-size: 14px;
-  line-height: 22px;
-  color: rgba(43, 41, 45, 0.6);
+.checkbox input[type="checkbox"] {
+	opacity: 0;
 }
+.checkbox label {
+	position: relative;
+	display: inline-block;
+	padding-left: 22px;
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(43, 41, 45, 0.6);
+}
+.checkbox label::before,
+.checkbox label::after {
+	position: absolute;
+	content: "";
+	display: inline-block;
+}
+.checkbox label::before{
+	height: 16px;
+	width: 16px;
+	
+	border: 1px solid;
+	left: 0px;
+	top: 3px;
+}
+.checkbox label::after {
+	height: 5px;
+	width: 9px;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+	transform: rotate(-45deg);
+	left: 4px;
+	top: 7px;
+}
+.checkbox input[type="checkbox"] + label::after {
+	content: none;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+	content: "";
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+	outline: rgb(59, 153, 252) auto 5px;
+}
+.footer {
+}
+.conteiner {
+}
+.footer__left {
+}
+.footer__logo {
+}
+.flex {
+}
+.footer__img {
+}
+.footer__logo-item {
+}
+.footer__logo-title {
+}
+.footer__logo-pretitle {
+}
+.footer__logo-text {
+}
+.footer__shop-button {
+}
+.footer__shop-link {
+}
+.google-play {
+}
+.app-store {
+}
+.footer__middle {
+}
+.footer__middle-title {
+}
+.footer__middle-list {
+}
+.footer__middle-li {
+}
+.footer__right {
+}
+.footer__right-title {
+}
+.footer__right-list {
+}
+.footer__right-li {
+}
+.footer__bottom {
+}
+.footer__bottom-list {
+}
+.footer__ul {
+}
+.footer__li {
+}
+.footer__bottom-social {
+}
+.footer__social {
+}
+.footer__social-icon {
+}
+
+
+
+
 
 @media screen and (max-width: 1200px) {
   .conteiner {
