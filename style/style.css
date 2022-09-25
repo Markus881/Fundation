@@ -373,8 +373,15 @@ grid-column: span 1;
 background-color: #f4f5f7;
 padding: 72px 0 72px;
 }
+.window__conteiner{
+justify-content: start;
+align-items: normal;
+}
 .window__image {
-margin-left: 80px;
+	margin-left: 90px;
+}
+.window__item{
+margin-left: 122px;
 }
 .window__title {
 font-weight: 700;
@@ -478,15 +485,15 @@ outline: rgb(59, 153, 252) auto 5px;
 .footer {
 padding: 71px 0 37px;
 }
-.conteiner {
+.footer__flex{
+	justify-content: start;
 }
 .footer__left {
+	margin-right: 126px;
 }
 .footer__logo {
 max-width: 299px;
 margin-bottom: 26px;
-}
-.flex {
 }
 .footer__img {
 }
@@ -510,16 +517,24 @@ line-height: 26px;
 color: rgba(43, 41, 45, 0.6);
 }
 .footer__shop-button {
+	margin-bottom: 59px;
 }
 .footer__shop-link {
+}
+.footer__block{
+justify-content: start;
+align-items: normal;
+margin-bottom: 47px;
 }
 .google-play {
 }
 .app-store {
 }
 .footer__middle {
+	margin-right: 90px;
 }
 .footer__middle-title {
+	margin-bottom: 18px;
 font-weight: 700;
 font-size: 22px;
 line-height: 28px;
@@ -534,6 +549,7 @@ color: rgba(43, 41, 45, 0.6);
 .footer__right {
 }
 .footer__right-title {
+	margin-bottom: 18px;
 font-weight: 700;
 font-size: 22px;
 line-height: 28px;
@@ -804,7 +820,7 @@ font-size: 18px;
 line-height: 13px;
 }
 .checkbox label{
-margin-bottom: 13px;
+margin-bottom: 20px;
 max-width: 431px;
 }
 .window__btn, .input{
