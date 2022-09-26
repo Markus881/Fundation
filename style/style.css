@@ -70,6 +70,17 @@ color: #ffffff;
 transform: scale(1.1);
 transition: 500ms;
 }
+.check{
+	width: 30px;
+	height: 3px;
+	background-color: #000;
+}
+.check:not(:last-of-type){
+	margin-bottom: 4px;
+}
+.checkbox, .check__wrapper{
+	display: none;
+}
 .main {
 background: rgba(243, 198, 189, 1);
 position: relative;
@@ -78,7 +89,7 @@ padding-bottom: 126px;
 .main__conteiner > div:first-of-type{
 z-index: 1;
 }
-.main__conteiner > .main__image:last-of-type{
+.main__conteiner > div:last-of-type{
 z-index: 0;
 position: absolute;
 right: 25px;
@@ -535,7 +546,65 @@ padding: 35px 0 45px;
 }
 .header__ul {
 margin-right: 50px;
+flex-direction: column;
 }
+.checkbox, .check__wrapper{
+	display: block;
+}
+.menu{
+	display: none;
+}
+.menu__conteiner{
+	position: relative;
+}
+.check{
+	transition: 700ms;
+}
+.checkbox{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	z-index: 2;
+}
+.checkbox:checked ~ .check__wrapper > .check:first-of-type{
+	transform: rotate(45deg) translate(8px, 10px);
+}
+.checkbox:checked ~ .check__wrapper > .check:nth-of-type(2){
+	opacity: 0;
+}
+.checkbox:checked ~ .check__wrapper > .check:last-of-type{
+	transform: rotate(-45deg) translate(0px, -1px);
+}
+.checkbox:checked ~ .menu{
+	display: block;
+	position: fixed;
+	background-color: darksalmon;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	padding-top: 40px;
+}
+.header__li{
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+.check__wrapper{
+	position: relative;
+	z-index: 1;
+}
+
+
+
+
+
+
+
 .questions {
 padding: 55px 0 55px;
 }
@@ -602,8 +671,9 @@ padding-bottom: 0;
 flex-direction: column;
 }
 .main__conteiner > .main__image:last-of-type {
-position: relative;
-right: 0;
+position: static;
+z-index: 0;
+right: 25;
 }
 .main__title{
 max-width: 525px;
@@ -647,6 +717,7 @@ justify-items: center;
 .flex__inbox-column {
 flex-direction: column-reverse;
 }
+
 .inbox {
 padding: 57px 0 70px;
 }
@@ -802,6 +873,7 @@ padding-bottom: 50px;
 	grid-template-columns: repeat (1, 1fr);
 	grid-template-rows: repeat (4, 1fr);
 	gap: 40px;
+}
 }
 @media screen and (max-width: 480px) {
 .conteiner {
