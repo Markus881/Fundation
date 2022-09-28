@@ -814,7 +814,7 @@ hr {
 		position: fixed;
 		background-color: darksalmon;
 		top: 5%;
-		bottom: 75%;
+		/* bottom: 75%; */
 		right: 10%;
 		padding: 30px;
 		z-index: 2;
@@ -1034,6 +1034,11 @@ hr {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		gap: 45px 45px;
+		justify-items: center;
+	}
+
+	.item__pic{
+		width: 262px;
 	}
 
 	.window__conteiner {
