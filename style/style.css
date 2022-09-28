@@ -169,6 +169,62 @@ li a {
 	line-height: 32px;
 }
 
+
+
+
+
+
+
+
+.features {
+	padding: 20px 0;
+}
+.conteiner {
+}
+.flex {
+}
+.features__conteiner {
+}
+.features__items {
+}
+.items__pretitle {
+}
+.items__pretitle-green {
+}
+.items__title {
+}
+.items__text {
+}
+.items__response {
+}
+.items__row {
+}
+.items__row-icon {
+}
+.icon {
+}
+.items__row-title {
+}
+.items__row-text {
+}
+.items__row-line {
+}
+.features__image {
+}
+.features__img {
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .inbox {
 	background: rgba(252, 240, 227, 0.4);
 	mix-blend-mode: normal;
