@@ -972,7 +972,7 @@ hr {
 }
 
 	.input{
-		margin-right: 18px;
+		margin-bottom: 10px;
 	}
 
 	.input::placeholder {
@@ -1046,9 +1046,13 @@ hr {
 	}
 	.footer__shop-button{
 		display: flex;
+		justify-content: center;
 	}
 	.footer__shop-link{
-		margin-right: 46px;
+		margin-right: 0;
+	}
+	.google-play{
+		margin-right: 10px;
 	}
 	.footer__flex{
 		flex-direction: column;
@@ -1086,6 +1090,7 @@ hr {
 	.inbox__response {
 		margin-bottom: 50px;
 	}
+
 }
 
 @media screen and (max-width: 630px) {
@@ -1096,6 +1101,7 @@ hr {
 		margin-right: 0;
 		margin-bottom: 15px;
 	}
+
 }
 
 @media screen and (max-width: 550px) {
@@ -1138,6 +1144,19 @@ hr {
 		max-width: 260px;
 	}
 
+	.main__button{
+		text-align: center;
+	}
+	.button__btn{
+		margin: 0 0 10px;
+	}
+	.button-white{
+		margin-bottom: 10px;
+	}
+	.main__image{
+		margin-bottom: 20px;
+	}
+
 	.conteiner-image__img {
 		height: 100%;
 	}
@@ -1159,18 +1178,29 @@ hr {
 		max-width: 300px;
 	}
 
-	.inbox {
-		padding: 50px 0 50px;
+	.main__button{
+		text-align: center;
+	}
+	.button__btn{
+		margin: 0 0 10px;
+	}
+	.button-white{
+		margin-bottom: 10px;
+	}
+	.main__image{
+		margin-bottom: 20px;
 	}
 
-	.left__button {
-		margin-bottom: 12px;
+
+	.inbox {
+		padding: 50px 0 50px;
 	}
 
 	.item__gallery {
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(4, 1fr);
 		gap: 15px;
+		margin: 15px;
 	}
 
 	.conteiner-image {
@@ -1281,7 +1311,7 @@ hr {
 	}
 	
 	.button__btn{
-		margin-bottom: 10px;
+		margin: 0 0 10px;
 	}
 
 	.button-white{
@@ -1300,6 +1330,7 @@ hr {
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(4, 1fr);
 		gap: 15px;
+		margin: 15px;
 	}
 
 	.conteiner-image {
@@ -1424,16 +1455,9 @@ hr {
 	.footer__logo-text{
 		display: none;
 	}
-	.footer__shop-button{
-		display: flex;
-		justify-content: center;
-	}
-	.google-play{
-		margin-right: 10px;
-	}
 	.footer__bottom{
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 	}
 	.footer__bottom-list{
 		margin-bottom: 30px;
