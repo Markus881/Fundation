@@ -238,44 +238,6 @@ li a {
 	color: rgba(43, 41, 45, 0.6);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.about {
-}
 .about__item {
 	text-align: center;
 	margin: 106px 0 63px;
@@ -298,46 +260,31 @@ li a {
 	height: 48px;
 	width: 247px;
 }
-.about__block {
+.about__items {
+	max-width: 750px;
+	border: 1px solid rgba(43, 41, 45, 0.2);
+	border-radius: 8px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.about-title {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 3px;
+}
+.about-text {
+	max-width: 410px;
+	font-size: 18px;
+	line-height: 26px;
+	display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.about__pretitle-text {
+	font-size: 18px;
+line-height: 24px;
+}
 
 .subinfo {
 	padding: 103px 0 105px;
@@ -479,10 +426,6 @@ li a {
 		0px 11px 55px 10px rgba(0, 0, 0, 0.07);
 	transition: 2s;
 }
-
-/* .item__pic:hover:after {
-	content: url(../img/engage-visitors/finger.svg);
-} */
 
 .item__title {
 	font-weight: 700;
