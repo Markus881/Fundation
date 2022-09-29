@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 $('.about__items > div').on('click', function () {
 	$(this).children('.about-click').toggleClass('about-rotate-icon');
 	$(this).parent('.about__items').toggleClass('change-color');
