@@ -1,4 +1,6 @@
-
+$('.items__row > div').on('click', function () {
+	$(this).next('.items__row-text').slideToggle(300);
+});
 
 
 
