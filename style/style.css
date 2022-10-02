@@ -1398,6 +1398,12 @@ hr {
 	.feature__icon{
 		display: none;
 	}
+	.items__title{
+		font-size: 48px;
+	}
+	.features__img {
+		height: 350px;
+  }
 
 }
 
@@ -1410,6 +1416,9 @@ hr {
 		margin-right: 0;
 		margin-bottom: 15px;
 	}
+	.features__img {
+		height: 300px;
+  }
 
 }
 
@@ -1476,6 +1485,9 @@ hr {
 		grid-row: span 1;
 		grid-column: span 1;
 	}
+	.about-text {
+		max-width: 250px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -1513,6 +1525,9 @@ hr {
 		margin-right: 0px;
 		margin-bottom: 15px;
 	}
+	.features__img {
+		height: 250px;
+  }
 }
 
 @media screen and (max-width: 360px) {
