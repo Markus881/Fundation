@@ -11,11 +11,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
 		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="./style/style.css" />
 	<title>Foundation</title>
 </head>
 
 <body>
+	<!-- ================================Header======================================== -->
 	<header class="header">
 		<div class="conteiner flex">
 			<div class="logo flex">
@@ -48,6 +50,7 @@
 			</nav>
 		</div>
 	</header>
+	<!-- ============================main============================================== -->
 	<section class="main">
 		<div class="conteiner flex main__conteiner">
 			<div class="main__item">
@@ -66,6 +69,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- =================================questions==================================== -->
 	<section class="questions">
 		<div class="conteiner flex question__conteiner">
 			<div class="left">
@@ -84,6 +88,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- ============================companys conteiner================================ -->
 	<section class="companys conteiner">
 		<div class="companys__img flex">
 			<div class="companys__img--img">
@@ -106,55 +111,57 @@
 			</div>
 		</div>
 	</section>
+	<!-- ==================================features==================================== -->
 	<section class="features">
-		<div class="feature__icon"><img src="./img/features/binoculars.svg" alt="" class="icon-1"></div>
 		<div class="conteiner flex">
-			<div class="features__conteiner">
-				<div class="features__items">
-					<p class="items__pretitle items__pretitle-green">Features</p>
-					<h3 class="items__title">Easily find leads and customers</h3>
-					<p class="items__text">Send one-off and automated email, push, and in-app messages to people. Create
-						better stories.</p>
+			<div class="feature__icon">
+				<img src="./img/features/binoculars.svg" alt="" class="icon-1">
+			</div>
+			<div class="features__flex flex">
+				<div class="features__conteiner">
+					<div class="features__items">
+						<p class="items__pretitle items__pretitle-green">Features</p>
+						<h3 class="items__title">Easily find leads and customers</h3>
+						<p class="items__text">Send one-off and automated email, push, and in-app messages to people. Create
+							better stories.</p>
+					</div>
+					<div class="items__response">
+						<div class="items__row">
+							<div class="items__row-icon flex">
+								<img src="./img/features/Icon1.svg" alt="" class="icon">
+								<h2 class="items__row-title">Acquire new customers</h2>
+							</div>
+							<p class="items__row-text">
+								Everything you need to start building – including open-source code, documentation.
+							</p>
+						</div>
+						<div class="items__row">
+							<div class="items__row-icon flex">
+								<img src="./img/features/Icon2.svg" alt="" class="icon">
+								<h2 class="items__row-title">Engage users</h2>
+							</div>
+							<p class="items__row-text">
+								Everything you need to start building – including open-source code, documentation.
+							</p>
+						</div>
+						<div class="items__row">
+							<div class="items__row-icon flex">
+								<img src="./img/features/Icon4.svg" alt="" class="icon">
+								<h2 class="items__row-title">Develop across platforms</h2>
+							</div>
+							<p class="items__row-text">
+								Everything you need to start building – including open-source code, documentation.
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="items__response">
-					<div class="items__row">
-						<div class="items__row-icon flex">
-							<img src="./img/features/Icon1.svg" alt="" class="icon">
-							<h2 class="items__row-title">Acquire new customers</h2>
-						</div>
-						<p class="items__row-text">Everything you need to start building – including open-source code,
-							documentation.</p>
-						<div class="items__row-line"></div>
-					</div>
-					<hr>
-					<div class="items__row">
-						<div class="items__row-icon flex">
-							<img src="./img/features/Icon1.svg" alt="" class="icon">
-							<h2 class="items__row-title">Acquire new customers</h2>
-						</div>
-						<p class="items__row-text">Everything you need to start building – including open-source code,
-							documentation.</p>
-						<div class="items__row-line"></div>
-					</div>
-					<hr>
-					<div class="items__row">
-						<div class="items__row-icon flex">
-							<img src="./img/features/Icon1.svg" alt="" class="icon">
-							<h2 class="items__row-title">Acquire new customers</h2>
-						</div>
-						<p class="items__row-text">Everything you need to start building – including open-source code,
-							documentation.</p>
-						<div class="items__row-line"></div>
-					</div>
-					<hr>
+				<div class="features__image">
+					<img src="./img/features/Screen.png" alt="" class="features__img">
 				</div>
 			</div>
-			<div class="features__image">
-				<img src="./img/features/Screen.png" alt="" class="features__img">
-			</div>
-
 		</div>
 	</section>
+	<!-- =================================inbox======================================== -->
 	<section class="inbox">
 		<div class="conteiner flex flex__inbox-column">
 			<div class="conteiner-image">
@@ -184,49 +191,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="about">
-		<div class="conteiner">
-			<div class="about__item">
-				<h2 class="about__title">We’re hiring</h2>
-				<p class="about__text">We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
-				<button class="button about__button">More about Company</button>
-			</div>
-			<div class="about__block">
-				<div class="about__items">
-					<div class="about-conteiner flex">
-						<h2 class="about-title">Front-End Developer</h2>
-						<div class="about-pretitle flex">
-							<p class="about__pretitle-text">Los Angeles / Remote</p>
-						</div>
-						<div class="about-click">></div>
-					</div>
-					<p class="about-text">Everything you need to start building – including open-source code, documentation.
-					</p>
-				</div>
-				<div class="about__items">
-					<div class="about-conteiner flex">
-						<h2 class="about-title">Front-End Developer</h2>
-						<div class="about-pretitle flex">
-							<p class="about__pretitle-text">Los Angeles / Remote</p>
-						</div>
-						<div class="about-click">></div>
-					</div>
-					<p class="about-text">Everything you need to start building – including open-source code, documentation.
-					</p>
-				</div>
-				<div class="about__items">
-					<div class="about-conteiner flex">
-						<h2 class="about-title">Front-End Developer</h2>
-						<div class="about-pretitle flex">
-							<p class="about__pretitle-text">Los Angeles / Remote</p>
-						</div>
-						<div class="about-click">></div>
-					</div>
-					<p class="about-text">Everything you need to start building – including open-source code, documentation.
-					</p>
-				</div>
-			</div>
-	</section>
+	<!-- ===================================subinfo==================================== -->
 	<section class="subinfo">
 		<div class="conteiner subinfo__conteiner">
 			<div class="subinfo__top flex">
@@ -277,6 +242,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- ===============================background-cont================================ -->
 	<section class="background-cont">
 		<div class="conteiner item">
 			<div class="item__article">
@@ -311,6 +277,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- ===============================companys conteiner============================= -->
 	<section class="companys conteiner">
 		<div class="companys__img flex">
 			<div class="companys__img--img">
@@ -333,6 +300,100 @@
 			</div>
 		</div>
 	</section>
+	<!-- ================================balloon========================================-->
+	<section class="balloon">
+		<div class="conteiner">
+			<div class="slider">
+				<div class="carusel flex">
+					<div class="balloon__item-text">
+						<h2 class="ballon__title">Trusted by the world’s most innovative businesses – big and small</h2>
+						<p class="balloon__text">“Comprehensive set of startup tools for all imaginable entrepreneurial needs.
+							Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+						<div class="balloon__card">
+							<h2 class="balloon__name">Viella Malkovich</h2>
+							<p class="balloon__post">Creative Director at Johnson</p>
+						</div>
+					</div>
+					<div class="balloon__image">
+						<img src="./img/balloon/balloon.svg" alt="" class="balloon__img">
+					</div>
+				</div>
+				<div class="carusel flex">
+					<div class="balloon__item-text">
+						<h2 class="ballon__title">Trusted by the world’s most innovative businesses – big and small</h2>
+						<p class="balloon__text">“Comprehensive set of startup tools for all imaginable entrepreneurial needs.
+							Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+						<div class="balloon__card">
+							<h2 class="balloon__name">Viella Malkovich</h2>
+							<p class="balloon__post">Creative Director at Johnson</p>
+						</div>
+					</div>
+					<div class="balloon__image">
+						<img src="./img/balloon/balloon.svg" alt="" class="balloon__img">
+					</div>
+				</div>
+				<div class="carusel flex">
+					<div class="balloon__item-text">
+						<h2 class="ballon__title">Trusted by the world’s most innovative businesses – big and small</h2>
+						<p class="balloon__text">“Comprehensive set of startup tools for all imaginable entrepreneurial needs.
+							Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+						<div class="balloon__card">
+							<h2 class="balloon__name">Viella Malkovich</h2>
+							<p class="balloon__post">Creative Director at Johnson</p>
+						</div>
+					</div>
+					<div class="balloon__image">
+						<img src="./img/balloon/balloon.svg" alt="" class="balloon__img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ===============================about========================================== -->
+	<section class="about">
+		<div class="conteiner">
+			<div class="about__item">
+				<h2 class="about__title">We’re hiring</h2>
+				<p class="about__text">We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
+				<button class="button about__button">More about Company</button>
+			</div>
+			<div class="about__block">
+				<div class="about__items">
+					<div class="about-conteiner flex">
+						<h2 class="about-title">Front-End Developer</h2>
+						<div class="about-pretitle flex">
+							<p class="about__pretitle-text">Los Angeles / Remote</p>
+						</div>
+						<div class="about-click">></div>
+					</div>
+					<p class="about-text">Everything you need to start building – including open-source code, documentation.
+					</p>
+				</div>
+				<div class="about__items">
+					<div class="about-conteiner flex">
+						<h2 class="about-title">Community Manager</h2>
+						<div class="about-pretitle flex">
+							<p class="about__pretitle-text">New York / Full-Time</p>
+						</div>
+						<div class="about-click">></div>
+					</div>
+					<p class="about-text">Everything you need to start building – including open-source code, documentation.
+					</p>
+				</div>
+				<div class="about__items">
+					<div class="about-conteiner flex">
+						<h2 class="about-title">UX/UI Designer</h2>
+						<div class="about-pretitle flex">
+							<p class="about__pretitle-text">New York / Full-Time</p>
+						</div>
+						<div class="about-click">></div>
+					</div>
+					<p class="about-text">Everything you need to start building – including open-source code, documentation.
+					</p>
+				</div>
+			</div>
+	</section>
+	<!-- ========================conteiner============================================= -->
 	<section class="conteiner">
 		<div class="gallery">
 			<div class="article__item">
@@ -367,6 +428,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- =====================window=================================================== -->
 	<section class="window">
 		<div class="conteiner flex window__conteiner">
 			<div class="window__image">
@@ -390,6 +452,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- =====================footer=================================================== -->
 	<footer class="footer">
 		<div class="conteiner">
 			<div class="footer__flex flex">
@@ -454,6 +517,7 @@
 			</div>
 		</div>
 	</footer>
+	<!-- ==========================modal-overlay======================================= -->
 	<div class="modal-overlay">
 		<div class="modal">
 			<p class="modal__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores aliquid voluptate
@@ -461,13 +525,20 @@
 			<p class="modal__close">X</p>
 		</div>
 	</div>
-
-
-
-
+	<!-- =============================up=============================================== -->
+	<div id="up">
+		<span>
+			<svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="25px" height="25px">
+				<path
+					d="M19.061,7.854a1.5,1.5,0,0,0-2.122,0l-4.586,4.585a.5.5,0,0,1-.707,0L7.061,7.854A1.5,1.5,0,0,0,4.939,9.975l4.586,4.586a3.5,3.5,0,0,0,4.95,0l4.586-4.586A1.5,1.5,0,0,0,19.061,7.854Z" />
+			</svg>
+		</span>
+	</div>
+	<!-- =================================script======================================= -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
 		integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="./js/script.js"></script>
 </body>
 
