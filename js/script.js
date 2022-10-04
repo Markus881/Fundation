@@ -1,6 +1,6 @@
 // Секція features
 $('.items__row > div').on('click', function () {
-	$(this).parent('.items__row').toggleClass('items__row-title-js');
+	$(this).children('.items__row-title').toggleClass('items__row-title-js');
 	$(this).parent('.items__row').toggleClass('items__row-js');
 	$(this).next('.items__row-text').slideToggle(300);
 });
