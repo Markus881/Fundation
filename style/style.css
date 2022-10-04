@@ -496,6 +496,7 @@ li a {
 
 /* ========================================balloon========================================= */
 .balloon {
+	position: relative;
 	border-bottom: 1px solid #e6e6e6;
 	padding-bottom: 68px;
 }
@@ -505,7 +506,9 @@ li a {
 /*slider*/
 .slider {}
 
-.carusel {}
+.carusel {
+	justify-content: center;
+}
 
 .bx-wrapper {
 	-moz-box-shadow: none;
@@ -562,7 +565,11 @@ li a {
 	margin-bottom: 38px;
 }
 
-.balloon__image {}
+.balloon__image {
+	position: absolute;
+	right: 60px;
+	bottom: 0;
+}
 
 .balloon__img {}
 
