@@ -191,14 +191,14 @@ li a {
 /*=================================features=================================================*/
 .features {
 	max-width: 1400px;
-	margin: 0 auto;
+	margin: 0 auto 103px;
 	position: relative;
 }
 
 .feature__icon {
 	position: absolute;
-	left: -9%;
-	top: 50%;
+	left: -80px;
+	top: 240px;
 }
 
 .icon-1 {}
@@ -258,6 +258,7 @@ li a {
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
+	align-self: start;
 }
 
 .items__row-title-js{
@@ -272,7 +273,11 @@ li a {
 
 .items__row-line {}
 
-.features__image {}
+.features__image {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
 .features__img {}
 
@@ -490,7 +495,10 @@ li a {
 }
 
 /* ========================================balloon========================================= */
-.balloon {}
+.balloon {
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 68px;
+}
 
 .conteiner {}
 
