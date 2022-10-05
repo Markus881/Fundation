@@ -5,12 +5,42 @@ $('.items__row > div').on('click', function () {
 	$(this).next('.items__row-text').slideToggle(300);
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Секція about
-$('.about__items > div').on('click', function () {
-	$(this).children('.about-click').toggleClass('about-rotate-icon');
-	$(this).parent('.about__items').toggleClass('change-color');
-	$(this).next('.about-text').slideToggle(300);
+$('.about_items > div').on('click', function () {
+	$(this).children('.about_items_right').toggleClass('about_rotate_icon');
+	$(this).parent('.about_items').toggleClass('change_color');
+	$(this).next('.about_items_text').slideToggle(300);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Модальне вікно(Pop-up)
 $('.modal-overlay').on('click', function (e) {
